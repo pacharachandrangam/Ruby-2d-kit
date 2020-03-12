@@ -498,9 +498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a77cc88a26d4e4fb412eb53bcd3b67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 1
   vertical: 0
-  changeTime: 3
+  changeTime: 1
 --- !u!1 &200976027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,8 +1489,8 @@ Camera:
   far clip plane: 1000
   field of view: 68
   orthographic: 1
-  orthographic size: 6
-  m_Depth: -1
+  orthographic size: 5
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -23410,10 +23410,25 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 947087688920026437, guid: d298c7a69d304e541a64a7eac664f4cd,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 947087688920026437, guid: d298c7a69d304e541a64a7eac664f4cd,
+        type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 947087688920026438, guid: d298c7a69d304e541a64a7eac664f4cd,
         type: 3}
       propertyPath: m_Name
       value: MrClockworkSheet_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 947087688920026439, guid: d298c7a69d304e541a64a7eac664f4cd,
+        type: 3}
+      propertyPath: m_Simulated
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 947087688920026442, guid: d298c7a69d304e541a64a7eac664f4cd,
         type: 3}
@@ -23485,6 +23500,11 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5165367593012397091, guid: d298c7a69d304e541a64a7eac664f4cd,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 097a1263d90fc084982c696f16590708, type: 2}
     m_RemovedComponents:
     - {fileID: 947087688920026443, guid: d298c7a69d304e541a64a7eac664f4cd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d298c7a69d304e541a64a7eac664f4cd, type: 3}
